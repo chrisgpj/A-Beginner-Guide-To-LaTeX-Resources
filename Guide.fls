@@ -1,0 +1,71 @@
+PWD /Users/christophergeorge/Desktop/Repositories/LaTeX Learning
+INPUT /usr/local/texlive/2020/texmf.cnf
+INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt
+INPUT /Users/christophergeorge/Desktop/Repositories/LaTeX Learning/Guide.tex
+OUTPUT /Users/christophergeorge/Desktop/Repositories/LaTeX Learning/Guide.log
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/memoir/memoir.cls
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/memoir/memoir.cls
+INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/memoir/mem12.clo
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/memoir/mem12.clo
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/tools/dcolumn.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/tools/dcolumn.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/tools/delarray.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/tools/delarray.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/tuenc.def
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.cfg
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.cfg
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/ms/everysel.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/ms/everysel.sty
+INPUT /Users/christophergeorge/Desktop/Repositories/LaTeX Learning/Guide.aux
+INPUT /Users/christophergeorge/Desktop/Repositories/LaTeX Learning/Guide.aux
+OUTPUT /Users/christophergeorge/Desktop/Repositories/LaTeX Learning/Guide.aux
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+OUTPUT /Users/christophergeorge/Desktop/Repositories/LaTeX Learning/Guide.xdv
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /Users/christophergeorge/Desktop/Repositories/LaTeX Learning/Guide.aux
