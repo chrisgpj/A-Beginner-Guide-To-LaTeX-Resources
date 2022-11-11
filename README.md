@@ -8,4 +8,5 @@ The other files outside of folders are the TeX and auxiliary files for producing
 
 The files inside of folders are supporting material for the guide. These are referenced as you read through the guide.
 
-Chris
+~ Chris
+_Adelaide, 11 November, 2022_
