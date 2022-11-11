@@ -1,9 +1,9 @@
-PWD /Users/christophergeorge/Desktop/Repositories/LaTeX Learning
+PWD /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources
 INPUT /usr/local/texlive/2020/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt
-INPUT /Users/christophergeorge/Desktop/Repositories/LaTeX Learning/Guide.tex
-OUTPUT /Users/christophergeorge/Desktop/Repositories/LaTeX Learning/Guide.log
+INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.tex
+OUTPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.log
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/memoir/memoir.cls
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/memoir/memoir.cls
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
@@ -40,9 +40,9 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/ms/everysel.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/ms/everysel.sty
-INPUT /Users/christophergeorge/Desktop/Repositories/LaTeX Learning/Guide.aux
-INPUT /Users/christophergeorge/Desktop/Repositories/LaTeX Learning/Guide.aux
-OUTPUT /Users/christophergeorge/Desktop/Repositories/LaTeX Learning/Guide.aux
+INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.aux
+INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.aux
+OUTPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.aux
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map
@@ -55,7 +55,9 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-OUTPUT /Users/christophergeorge/Desktop/Repositories/LaTeX Learning/Guide.xdv
+OUTPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv
+INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.toc
+INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.toc
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
@@ -68,4 +70,5 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT /Users/christophergeorge/Desktop/Repositories/LaTeX Learning/Guide.aux
+OUTPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.toc
+INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.aux

@@ -17,10 +17,13 @@
 \maketitle
 \thispagestyle{empty}
 
-\raggedright
+\RaggedRight
 
 \chapter*{Dedication}
 \emph{For Nicole, that we may work together}.
+
+\newpage
+\tableofcontents
 
 \chapter{Introduction}
 I decided to compile a guide to the documentation of \LaTeX{}. Such a guide is needed, because there are many good works that can help a person to become erudite in \LaTeX{}, but they are not always easy to find; and in every place where a good work is not found, a less satisfactory explanation stands.
@@ -36,7 +39,7 @@ This booklet is \emph{not} an introduction to \LaTeX{}, and it is \emph{not} to 
 
 If you are very early-on in your \LaTeX{} journey, then you may wish to refer to chapters three, five, and the index of this book. Using the index, you can find where I talk about something like installing \LaTeX{}, or just getting a simple document up with a nice font. These are reasonable things to want to know! In fact, it is famously the wisdom of \LaTeX{} masters that people spend too much time concerned with \LaTeX{} and not with writing. But I do encourage you to go on from such beginning stages to find good, cohesive documents or resources that can help you understand \LaTeX{} more fully. If you do this, you will be better-off in the short, medium, and long terms.
 
-\section*{Part One}
+\section{Part One}
 The first part of this booklet is chapters three, four, and five.
 
 In chapter three, I tell you about some of the documentation for \LaTeX{}. In this guide, 'documentation' is anologous with official guides and handbooks, or to guides written by people who can be considered authorities in the realm of \LaTeX{}
@@ -45,7 +48,7 @@ In chapter four, I introduce you to some resources that will be valuable for bec
 
 In chapter five, I share my experiences on you about online resources, official and unofficial. The chapter contains some of my commentary about this matter. In the realm of \LaTeX{} there is a blurriness between authoritative documentation and unstructured help. Therefore, the commentary in this chapter is of universal interest and can be read as a supplement to chapter three.
 
-\section*{Part Two}
+\section{Part Two}
 The second part of this booklet is chapters six, seven, and eight.
 
 In chapter five, I provide you with some examples of \LaTeX{} at work. These examples are real-world examples from early on in my \LaTeX{} journey (actually, I am indefatigably in this part of the journey, still). The examples here are very bad, if you judge them by quality of work, but they have the virtue of showing how \LaTeX{} can be useful even when you do it badly. They also show many mistakes to avoid.
@@ -54,7 +57,7 @@ In chapter five, I provide you with some examples of \LaTeX{} at work. These exa
 
 In chapter seven, I share some features and capabilities of \LaTeX{} that I have found useful for doing simple document preparation. I also take a trouble-shooting approach, trying to spot things that can seem a bit jarring when learning \LaTeX{}. This chapter contains some commentary on the culture of \LaTeX{}.
 
-\section*{Part Three}
+\section{Part Three}
 Part three of this booklet contains chapters nine and ten.
 
 Chapter nine is my attempt at a glossary of terms of concepts. This chapter is quite dense, because it tries to clarify pivotal concepts, including those that I have found to challenging in the past. 
@@ -67,7 +70,7 @@ Without good documentation, there is no such thing as a good system or program, 
 
 If you read this chapter, you will arrive at the end with the knowledge of where to go for most of your \LaTeX{} needs, including where to go for tutorials on your very first \LaTeX{} documents.
 
-\section*{The Structure of \LaTeX{}}
+\section{The Structure of \LaTeX{}}
 
 It is necessary to speak on LaTeX itself before discussing the documentation, or else confusion will abound later-on. The following synopsis is the bare minimum.
 
@@ -87,10 +90,10 @@ You will notice that there is a \TeX{} markup/programming language, program, and
 
 Lamport wrote a manual for \LaTeX{}: ``''. Even though it is from 1985, that book is, for the most part, viable. However, very few people seem to use it. It is barely ever referenced on forums, and I suspect that it has simply not been made accessible enough for it to remain at the top of the recommended resource list. The community has stepped in with other resources, some of which are written by people who have made excellent packages for \LaTeX{} and could be considered the second-generation of \LaTeX{} creators. In any case, the absence of the `official documentation' explains much about the \LaTeX{} community, and the nature of the travails of learning \LaTeX{}.
 
-\section*{Hail, Comrade!}
+\section{Hail, Comrade!}
 So, what has the community produced and made available for free? From what I can see, probably everything you need.\\
 
-\subsection*{Memoir}
+\subsection{Memoir}
 
 One of my favorite contributions is the memoir class documentation. In my own mind, this is the official documentation for \LaTeX{}.
 
@@ -108,7 +111,7 @@ I recommend this guide as one of your possible starting points. I was getting in
 
 Another thing I like about this guide is that is tells you to use XeTeX. Interestingly, memoir provides a good word on fonts and XeTeX as well. Both of these have felt that to be important, and I agree. See the glossary for information on XeTeX.
 
-\subsection*{Overleaf}
+\subsection{Overleaf}
 
 Continuing our journey to a good beginning-point: Overleaf. Now, Overleaf is not really a documentation source. It is a website that offers a free, online \LaTeX{} editor, and has some pretty good tutorial/reference-guides available as well. I think that you will get on quite well starting with the overleaf editor if you do not have something like VS Code set up; without such a set-up, \LaTeX{} can get a bit overwhelming.
 
@@ -136,7 +139,7 @@ I have noticed that abstract concepts such as 'descriptive markup' can be learnt
 
 Because of my views on epistemology, outlined above, I have included this chapter: it is a group of resources that allow you to contemplate foundational concepts, but away from the shadow of \LaTeX{}.
 
-\section*{Design}
+\section{Design}
 
 \subsection*{Font Design and the Design of Communication}
 For this topic, see the 2007 documentary \emph{Helvetica}. It is available to watch at \emph{watchdocumentaries.com/helvetica}. This documentary is also a valuable introduction to the different approaches to design. 
@@ -145,7 +148,7 @@ For this topic, see the 2007 documentary \emph{Helvetica}. It is available to wa
 In the \LaTeX{} community, it is often emphasised that text is meant to be read, not to hang in art galleries — or some similar sentiment. That approach is a fairly functional one. Certainly, books do need to be read, and this places a weight on the functional traits of navigability and 
 legibility. But after reading some of the guidance in the \LaTeX{} community, one might think that serving such traits with a professional aptitude is all that \LaTeX{} can do, and perhaps even all that is worth doing. Counterpoints to that view are \emph{everywhere}. My favourite example is a book by Max Porter called \emph{Grief Is The Thing With Feathers}. The text blurs the idea of paragraphs, and uses the positioning of text to as a method of visual communication. These are things that the \emph{not so short introduction} would find peculiar. Yet \LaTeX{} would be excellent for specifying indents and positioning. I have used it for such purposes myself. \LaTeX{} is a freely available software that allows a high level of control over the typesetting process. The input is plain text as the input. Not only does this allow the process to be explicit, rather than being done by feel alone, with the ensuing risk of haphazard work — it also lends stability to the input file and removes dependency for understanding it from any particular piece of graphic-design software. While \LaTeX{} is a typesetting program, and will be strongest when working in a traditional typesetting context, its possibilities should not be overlooked.
 
-\subsection*{Typography}
+\subsection{Typography}
 Following from \emph{Helvetica}, you may find that the importance of typographic design has been illuminated, but you will not be any wiser on how to go about the nitty-gritty. \emph{Butterick's Practical Typography} is one resource to help. It is available at: . I find that it pushes some opinions, just as the \LaTeX{} documentations tend to do — but at least you have some varied sources now. 
 
 One point of difference I noticed is the approach to the spacing after full stops. The \LaTeX{} community seems to be fine with the approach of there being a double space after a full-stop, while Butterick goes in for single. I like single, but am more or less agnostic about this matter. If you \emph{really} want to see the metaphorical ant-nest swarm, tell the \LaTeX{} users what many designers say: that justified text looks awful, and we should embrace ragged text as a standard. The ensuing conflict would probably bring up the requirements of double-columned journal articles, or densely-packed books, in opposition with a notion of ideal design. It is ironic that most \LaTeX{}-produced documents are being distributed digitally and are somewhat free from these space-limited environments. Being an enlightened soul, I use both types of paragraph formatting, depending on the work.
@@ -154,7 +157,7 @@ This is a good time to mention that the \LaTeX{} community is one that works wit
 
 As mentioned, there were some typography issues around the 70's. Typography wasn't in decline, as such, but the introduction of new digital tools was creating some very poor results, and it had to be fixed (apparently). Knuth was not the only person to tackle this problem. The program \emph{Scribe} also came out in the early 80's. (note: Interestingly, between scribe, Latex, and generalised markup language, the idea of descriptive markup absolutely exploded in the late 80's). We seem to have gotten past the proliferation of terrible typography, now, but \LaTeX{} remains an excellent-quality typesetting program, with a number of virtues besides.
 
-\subsection*{Structured hierarchy of objects}
+\subsection{Structured hierarchy of objects}
 The idea that text has a logical structure is implicit in \LaTeX{}. Such ideas can be challenged, and should be when they are presented with too much rigidity. But it is a rather interesting thing to say, I think. Who said that text had a logical structure? I write illogical things all the time. The observation that text has a structure is a well-evidenced, though.
 
 The first text-book on accounting was written in 1494 by Luca Pacioli, a mathematician who helped to develop perspective painting. It has many short chapters. The `text-book' is itself a part of a larger series on math and geometry. Each chapter speaks to a topic, and none of chapters carry on to another part of the series; they are nested within the books. In turn, paragraphs are nested within chapters. This is all sensible enough. But I bring up Pacioli because he wrote thirty-seven chapters in his book, many shorter than a single A4 page in a modern equivalent. He evidently thought that structure and partitioning was important. I would say that `in the old days, people couldn't get away with sketchy structure'; however some ancient poetry transcriptions are pretty sketchy, so saying that would be misguided.
@@ -163,7 +166,7 @@ Anyway, text tends to structure, and this is articulated in a functional way for
 
 People say that \LaTeX{} encourages structure. It does, but you can also get away with bad practices if you want, and in many cases, the structure is only implied, rather than explicated. In something like XML, the structure is often (but not necessarily) more explicit.
 
-\section*{Descriptive Markup}
+\section{Descriptive Markup}
 Descriptive markup is another foundational concept, but I do not have a source on hand that goes into a deep rigorous discussion on the idea, so that you can mull it over. One possibility is to look for early articles on SGML (standardised generalised markup language), which was the most comprehensive application of the idea.
 
 Recall the idea that a printer's markup of a text might use something like an underline to indicate italic text. This is a surprisingly nuanced idea. Underlining is a common way of indicating emphasis in handwritten texts. Emphasis is usually communicated in printed texts with italics, so it makes sense that an underline means 'make this italic'. However, the underline could also just mean this word is emphasised — the decision on exactly how to render the emphasis could come later. This discussion shows how markup can be used in different ways. The italicisation of a text is a procedure, and the markup to indicating italics can be called 'procedural markup'. The style of markup that simply says 'this is emphasised' is more descriptive, and can be called 'descriptive markup'.
@@ -184,7 +187,7 @@ Ironically, descriptive markup has provided one of the challenges to the OHCO mo
 I have drawn a somewhat arbitrary line and put stable texts in the documentation pile, and more interactive or changeable websites in the online help pile.
 \end{quotation}
 
-\section*{A Few Words On Online Help}
+\section{A Few Words On Online Help}
 I'm of the view that LaTeX has been around long enough for things to get messy. Some features of LaTeX are no longer supported, by which I mean there are packages which are not being updated and are starting to not work with other packages. Furthermore, people are using LaTeX in different ways: different machines and operating systems, different approaches to off-line and on-line work, different approaches to fonts, and so on. This is all well and good until a 'solution' makes an assumption about what you are doing. Good solutions are those which are always true, or have their realm of truth well-framed, even if that means they are a little less user-friendly. If you look at the popular forum \emph{Stack Exchange}, the best answers are those which are both explicit and robust, not necessarily those which are short; and they are rarely the sort of answers that begin with ``Just use [...]", for those answers are often making assumption that instantly breaks down - often this is the very reason the problem was posted. The whole mode of online help struggles with always having to assume a certain amount about someone's knowledge or experience.
  
 The above reasons contributed to my judgement that websites and documentations have to be considered as different types of resources. A good documentation is worth its (figurative) weight in gold; even if you don't read documentations front-to-back, you still want them on-hand. Websites are often good but a generic 'got to this forum' means you have to sift through a lot of bullshit. Furthermore, many websites cited as being helpful assume that you have read official documentations - despite not providing clear references or pathways to finding said documentations.
@@ -195,9 +198,9 @@ For documentations, I have taken the approach of discussing these above, as well
 
 Finally, I have tried to outline what resources are the most 'official' LaTeX help in the online realm - see the section titled 'Official Help'.
 
-\section*{Online Help}
+\section{Online Help}
 
-\subsection*{The LaTeX Project}
+\subsection{The LaTeX Project}
 
 This is also a base for LaTex. It is the official website of LaTeX in that it is the website of the project responsible for maintaining the entity of LaTeX.
 
@@ -205,7 +208,7 @@ $https://www.latex-project.org/$
 
 However, the project funds are actually administered by the Tex Users Group.
 
-\subsection*{Tex User Group}
+\subsection{Tex User Group}
 
 https://www.tug.org/
 
@@ -213,7 +216,7 @@ This more informal looking website is — I understand — the most official bas
 
 The Tex Users Group is the administrator of the LaTeX Project.
 
-\subsection*{The Comprehensive Tex Archive Network}
+\subsection{The Comprehensive Tex Archive Network}
 \label{TUG}
 https://www.ctan.org
 
@@ -222,7 +225,7 @@ Example of things you would go to this site for are fonts catlogues, documentati
 e.g.
 https://www.ctan.org/pkg/texbytopic
 
-\subsection*{A side note on Documentation state}
+\subsection{A side note on Documentation state}
 
 
 \begin{quotation}
@@ -235,7 +238,7 @@ I am not the only person to raise this. A question was posted on Stack Exchange 
 
 But this thread highlights the ambiguity in a more positive way: https://tex.stackexchange.com/questions/66/which-manuals-are-on-your-tex-reference-shelf. I am pleased to say that the original poster mentioned the documentation for the memoir package. Upon discovering the memoir documentation, I also found the quality so high that I adopted it as the official reference in my own mind.
 
-\subsection*{LaTeX2E Unofficial Reference Guide Website}
+\subsection{LaTeX2E Unofficial Reference Guide Website}
 
 Not yet examined.
 
@@ -251,16 +254,16 @@ Stack Exchange can also be a source of code-snippets, particular in base TeX lan
 
 I provide a number of resources that I have found on Stack Exchange in chapter TK.
 
-\subsection*{Overleaf}
+\subsection{Overleaf}
 
-\section*{Links to Documentation}
+\section{Links to Documentation}
 
-\section*{Official Help}
+\section{Official Help}
 
 %\part{Two - examples}
 \chapter{\LaTeX{} at Work}
 
-\section*{\LaTeX{} Applied in a small non-technical workplace}
+\section{\LaTeX{} Applied in a small non-technical workplace}
 \LaTeX{} is sometimes said to be a solution for writing theses and large documents. It is, but I am able to show with these two examples that it can also prove useful in non-technical workplaces for small documents.
 
 \subsection{Pocket-journal Copy}
@@ -308,7 +311,72 @@ The distribution should also come with a program where you can enter plain text 
 
 Starting off with something like TeXShop, you will be bombarded with auxiliary files. These are outlined in the Not so Short Introduction. I will say the the .log file is particularly handy. These files can be handled by organising your digital space a bit, and by setting up an IDE. This is important when you get start inserting images and such, anyway.
 
-\section*{How I use LaTeX Now}
+\section{How I use LaTeX Now}
+
+\subsection{How I Write Text on a Computer}
+
+LaTeX is now easier for me to use than any other typesetting option, and I have not been using it for long. Until recently, it only came into my life for specific purposes, but now I am happy to use it for regular work.
+
+There are plenty of reasons for using LaTeX, but there is still a case for just writing simple documents with a word processor. I still do exactly that, much of the time. I sometimes like to use text-edit and make rich-text files, because the program is minimal and allows me to produce black text, in my preferred font, against a white back-ground. I like not having lots of code in the text, and the WYSIWYG mode acheives that.
+
+However, I always tend to switch over to LaTeX now. When a work becomes more complete, the LaTeX pdf will look even better will be good way to reflect on it. Furthermore, there is less and less code in my text. LaTeX is pretty minimal for basic text, and the preamble is increasingly short and concise. It takes so little time to render something into LaTeX that I am starting to do it sooner rather than later, and it means I can easily slot in a table of contents by doing something as simple as this at the top of the document:
+
+\begin{verbatim*}
+    \tableofcontents
+\end{verbatim*}
+
+Definitely, as soon as I step away from simple text and into formatting, I must use LaTeX. The frustration of writing poetry and sorting out the indents for this bit of whole text, and indents for just the first line elsewhere, and indents of this kind for the dot-points... It will drive one mad. It is much better to do things like this:
+
+\begin{verbatim*}
+    \begin{verse}
+        No words were laid on stream or stone,
+        when Durin woke and walked alone.
+    \end{verse}
+\end{verbatim*}
+
+At the end of the day, I find that I can simplify things, either working in hyper-minimal environments and getting the benefit of those, or working in LaTeX and getting the benefit of that.
+
+\subsection{The Small Things That Make It Work}
+
+The ease of writing in LaTeX is certainly catalysed by the resources available to me. Obtaining some equivalency of what I am doing — or looking for something even better — is recommended.
+
+I work with a program called VS code. It is a free IDE for coding work, and it has \emph{tons} of extensions. Here are some of the key features I gain:
+\begin{itemize}
+    \item I can organise my files/repository in the same program that I do the actual work in;
+    \item I can install excellent TeX extensions that have full functionality, like the selection XeTeX as my engine.
+    \item I can view pdf's in the same program. I can even organise it so that I have two different tabs: one with the TeX file (which is the plain-text input file), and the other with the preview of the pdf. If I edit the input, I can update the preview without even having to close it, or change the part that I am viewing.
+    \item I can install extensions that highlight issues with the TeX code, allowing my to maintain it easily on-the-go.
+    \item I can link the project to Github, simply pushing it to the online repository whenever I wish, and working in the normal manner otherwise.
+    \item I can fold the sections of my document using comments in my code (these don't affect the output in any way), so that even a very large document can be collapsed down to only a couple of lines showing the main parts.
+    \item The TeX extensions also have some built-in functionality that lets me navigate the document structure easily.
+    \item I can use the regex\footnote{'Regex' means 'regular expression', a syntax for creating conditional statements} feature of VS codes search-and-replace functionality to help highlight words, or convert markdown documents to LaTeX.
+    \item I can use VS code for coding activities that might be related to the document being written.
+\end{itemize}
+
+Any good IDE will give you some similar benefits. It does not need to be VS code, and it is perfectly sensible to use different tools for different things. My overall finding is that setting up your workflow will make things exponentially easier compared to my own initial experiences with LaTeX, saving you time and reducing stress\footnote{ A very similar thing can be said for having a good piece of documentation on hand rather than a bad one, or none at all.}.
+
+\subsection{Pandora's Box}
+I find the digital realm frustratingly arbitrary. It seems like the sort of place that is filled with acronyms, many of which people don't even have to know the origin of in order to be skilled. I can make some progress, but for the most-part I struggle with not investing my time in proper learning, and feeling that people are always assuming some unreasonable, overly-arbitrary array of initial knowledge. In many ways, this guide is an attempt to impose order and a situation that did not seem to make sense. Now, as you know, learning the basics of how things are operating is incredibly liberating, and without embracing that, we probably wouldn't even realise the usefulness of something like R. 
+
+In the realm of LaTeX, a thing that is likely to drag you into the lower levels of your operating system is fonts. In order to specify fonts in LaTeX, you need the name of the font as saved on your computer. 
+
+\begin{verbatim}
+    \documentclass{memoir}
+    \usepackage{fontspec}
+    
+    \defaultfontfeatures{Scale=MatchLowercase}
+    \setmainfont[ItalicFont={QTSchoolCentury-Italic}]{QTSchoolCentury}
+\end{verbatim}
+
+There is not a standardised name for fonts, as such, unless you are working with standard TeX-fonts. TeXLive comes with a lot of other fonts, and you can also download you own — but how do you tell LaTeX what font you want if it is not already familiar with it? It turns out that even if you know the file-name for the font, LaTeX could still be looking for it in the wrong place.
+
+I found out that when using LaTeX (XeTeX, to be precise), the program was referencing the system folder for fonts, while the TeXLive distribution had installed the fonts within the usr/local folder, which is not usually visible, because it contains sensitive files that should not be edited by naive users. Naive I am, but this sort of thing can be frustrating to the uninitiated. I now keep the fonts that I want to use in the system's font folder, because that seems like a sensible place to reference fonts from. The other solution is to alter where LaTeX is looking for the fonts, which takes a bit of code.
+
+There purpose of the above story is to provide an example of an area that I personally find frustrating. However, if the problem can be isolated, one can probably learn enough to solve it. And the long-term result is just a better understanding of one's digital workspace.
+
+\begin{verbatim}
+
+\end{verbatim}
 
 
 
