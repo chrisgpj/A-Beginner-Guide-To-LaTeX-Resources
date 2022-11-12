@@ -1,11 +1,11 @@
 # Fdb version 3
-["xdvipdfmx"] 1668261393 "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv" "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.pdf" "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide" 1668261394
-  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv" 1668261393 142820 3b1457f5d302ae6a62efdec37021e67d "xelatex"
+["xdvipdfmx"] 1668257962 "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.xdv" "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.pdf" "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide" 1668257963
+  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.xdv" 1668257962 584416 f99d7b2d2fb7abdd8795636535361689 "xelatex"
   (generated)
-  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.pdf"
-["xelatex"] 1668261392 "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.tex" "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv" "Guide" 1668261394
-  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.aux" 1668261393 3005 5c091c3a51e1eecb847aa1787750c74e ""
-  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.tex" 1668261391 13511 b6e17d3746890075996dbcef845732e3 ""
+  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.pdf"
+["xelatex"] 1668257961 "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.tex" "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.xdv" "Long Form Guide" 1668257963
+  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.aux" 1668257962 7191 9c31cb080e4f5eb75ccb9783dd55e941 ""
+  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.tex" 1668255284 57188 45044915a852ace3430ef3ba44f77921 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -68,15 +68,15 @@
   "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
   "/usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt" 1586288269 4769632 cea4f80911e5df070b1f6d7834d4faf8 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "Guide.aux" 1668261393 3005 5c091c3a51e1eecb847aa1787750c74e "xelatex"
-  "Guide.out" 1668261393 555 e1ca00c6ae442d225056614e2779b504 "xelatex"
-  "Guide.tex" 1668261391 13511 b6e17d3746890075996dbcef845732e3 ""
-  "Guide.toc" 1668261393 1252 fc3be6709bfac7e9a2a45fe555201b97 "xelatex"
+  "Long Form Guide.aux" 1668257962 7191 9c31cb080e4f5eb75ccb9783dd55e941 "xelatex"
+  "Long Form Guide.out" 1668257962 1718 a2ad79b024a777e7080ee146f2877ebc "xelatex"
+  "Long Form Guide.tex" 1668255284 57188 45044915a852ace3430ef3ba44f77921 ""
+  "Long Form Guide.toc" 1668257962 3768 6037e61acb92a6689c82e9cecc36ab61 "xelatex"
   (generated)
-  "Guide.toc"
-  "Guide.log"
-  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.log"
-  "Guide.out"
-  "Guide.aux"
-  "Guide.xdv"
-  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv"
+  "Long Form Guide.aux"
+  "Long Form Guide.xdv"
+  "Long Form Guide.log"
+  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.xdv"
+  "Long Form Guide.toc"
+  "Long Form Guide.out"
+  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.log"

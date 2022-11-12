@@ -1,9 +1,9 @@
-PWD /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources
+PWD /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long
 INPUT /usr/local/texlive/2020/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt
-INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.tex
-OUTPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.log
+INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.tex
+OUTPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.log
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/memoir/memoir.cls
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/memoir/memoir.cls
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
@@ -81,9 +81,9 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
-INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.aux
-INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.aux
-OUTPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.aux
+INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.aux
+INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.aux
+OUTPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.aux
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -92,13 +92,11 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.out
-INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.out
-INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.out
-INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.out
-INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.out
-INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.out
-OUTPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.out
+INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.out
+INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.out
+INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.out
+INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.out
+OUTPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.out
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -114,9 +112,9 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def
-OUTPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv
-INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.toc
-INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.toc
+OUTPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.xdv
+INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.toc
+INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.toc
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
@@ -132,7 +130,5 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
-OUTPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.toc
-INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.aux
-INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.out
-INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.out
+OUTPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.toc
+INPUT /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/First Version_Long/Long Form Guide.aux

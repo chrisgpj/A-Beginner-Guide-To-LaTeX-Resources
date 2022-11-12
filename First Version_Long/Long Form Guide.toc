@@ -1,0 +1,50 @@
+\contentsline {chapter}{Contents}{3}{section*.2}%
+\contentsline {chapter}{\chapternumberline {1}Introduction}{5}{chapter.1}%
+\contentsline {subsection}{A note on the text}{5}{section*.3}%
+\contentsline {chapter}{\chapternumberline {2}The Structure of This Booklet}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Part One}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Part Two}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Part Three}{8}{section.2.3}%
+\contentsline {chapter}{\chapternumberline {3}\LaTeX {} Documentation}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}The Structure of \LaTeX {}}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}A couple of Favourite Documentations}{12}{section.3.2}%
+\contentsline {subsection}{Memoir}{12}{section*.5}%
+\contentsline {subsection}{A Not So Short Introduction}{12}{section*.6}%
+\contentsline {subsection}{Overleaf}{13}{section*.7}%
+\contentsline {section}{\numberline {3.3}Summary So Far}{13}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Other Documentations}{14}{section.3.4}%
+\contentsline {chapter}{\chapternumberline {4}Deep Roots}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Design}{15}{section.4.1}%
+\contentsline {subsection}{Typography}{16}{section*.10}%
+\contentsline {subsection}{Structured hierarchy of objects}{17}{section*.11}%
+\contentsline {section}{\numberline {4.2}Descriptive Markup}{18}{section.4.2}%
+\contentsline {chapter}{\chapternumberline {5}Online Resources}{21}{chapter.5}%
+\contentsline {section}{\numberline {5.1}A Few Words On Online Help}{21}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Online Help}{22}{section.5.2}%
+\contentsline {subsection}{The LaTeX Project}{22}{section*.12}%
+\contentsline {subsection}{Tex User Group}{23}{section*.13}%
+\contentsline {subsection}{The Comprehensive Tex Archive Network}{23}{section*.14}%
+\contentsline {subsection}{A side note on Documentation state}{23}{section*.15}%
+\contentsline {subsection}{LaTeX2E Unofficial Reference Guide Website}{24}{section*.16}%
+\contentsline {subsection}{Stack Exchange}{24}{section*.17}%
+\contentsline {subsection}{Overleaf}{25}{section*.18}%
+\contentsline {section}{\numberline {5.3}Links to Documentation}{25}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Official Help}{25}{section.5.4}%
+\contentsline {chapter}{\chapternumberline {6}\LaTeX {} at Work}{26}{chapter.6}%
+\contentsline {section}{\numberline {6.1}\LaTeX {} Applied in a small non-technical workplace}{26}{section.6.1}%
+\contentsline {subsection}{Pocket-journal Copy}{26}{section*.19}%
+\contentsline {subsection}{Nice Looking Inventory Sheets}{27}{section*.20}%
+\contentsline {chapter}{\chapternumberline {7}\LaTeX {} Workflow}{29}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Installing LaTex, and Some Core features to note}{29}{section.7.1}%
+\contentsline {section}{\numberline {7.2}How I use LaTeX Now}{31}{section.7.2}%
+\contentsline {subsection}{How I Write Text on a Computer}{31}{section*.21}%
+\contentsline {subsection}{The Small Things That Make It Work}{32}{section*.22}%
+\contentsline {subsection}{Pandora's Box}{33}{section*.23}%
+\contentsline {section}{\numberline {7.3}Good Workflow in LaTeX Code}{34}{section.7.3}%
+\contentsline {subsection}{The very first lines of LaTeX code in a document}{36}{section*.24}%
+\contentsline {subsection}{Packages and stuff}{36}{section*.25}%
+\contentsline {subsection}{Good Code Habits}{37}{section*.26}%
+\contentsline {subsection}{Bits and pieces}{38}{section*.27}%
+\contentsline {subsubsection}{Absolutely stop a page-break}{38}{section*.28}%
+\contentsline {subsubsection}{Strange spacing on a page}{39}{section*.29}%
+\contentsline {subsubsection}{Formatting in a particular area}{39}{section*.30}%
