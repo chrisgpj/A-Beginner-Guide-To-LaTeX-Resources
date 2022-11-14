@@ -1,6 +1,6 @@
 # Links to Websites and Online Documentations
 
-### Official stuff
+## Official stuff
 
 https://www.latex-project.org/
 
@@ -8,13 +8,13 @@ https://www.tug.org/
 
 https://www.ctan.org
 
-### Discussions about documentation and what to read
+## Discussions about documentation and what to read
 
- https://tex.stackexchange.com/questions/47958/where-can-i-find-the-standard-latex-reference-manual
+https://tex.stackexchange.com/questions/47958/where-can-i-find-the-standard-latex-reference-manual
 
 https://tex.stackexchange.com/questions/66/which-manuals-are-on-your-tex-reference-shelf
 
-### LaTeX2E Unofficial Reference Guide Website
+## LaTeX2E Unofficial Reference Guide Website
 
 Not yet examined.
 
@@ -34,7 +34,7 @@ It is also not such a introduction to concepts around modernism and post-moderni
 
 https://practicaltypography.com/
 
-## Markup Languages and LaTeX in Context
+## Markup Languages
 
 https://www.w3.org/TR/xml/
 
@@ -45,3 +45,16 @@ https://developer.mozilla.org/en-US/docs/Web/XML
 https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line
 
 https://www.markdownguide.org/
+
+## BiBTeX
+
+https://tug.org/bibtex/
+
+### Example of BiBTeX and Zotero
+https://libguides.princeton.edu/c.php?g=148292&p=991756
+
+### BiBLaTeX
+https://www.ctan.org/pkg/biblatex
+
+### BiBTeXu
+https://ctan.org/pkg/bibtexu
