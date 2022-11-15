@@ -27,20 +27,20 @@
 \tableofcontents
 
 \chapter{Introduction}
-I decided to compile a guide to the documentation of \LaTeX{}. Such a guide is needed, because there are many good works that can help a person to become erudite in \LaTeX{}, but they are not always easy to find; and in every place where a good work is not found, a less satisfactory explanation stands.
+I decided to compile a guide to the documentation of \LaTeX{}. Such a guide is needed, because there are many good works that can help a person to become erudite in \LaTeX{}, but they are not always obvious; and in every place where a good work is not found, a less satisfactory explanation stands.
 
 This guide is accompanied by (and is a part of) a repository, which is available on github. The name of the repository is ``A Beginner Guide To LaTeX Resources''.
 
 \url{https://github.com/chrisgpj/A-Beginner-Guide-To-LaTeX-Resources}
 
 \subsection{A note on the text}
-Throughout this guide I have used ``LaTeX'' in many places, rather than ``\LaTeX{}''. While \LaTeX{} is the official rendering, ``LaTeX'' is official in plain-text environments, and I prefer this in prose.
+In many places throughout this guide, I have used ``LaTeX'', rather than ``\LaTeX{}''. While ``''\LaTeX{}'' is the official rendering, ``LaTeX'' is official within plain-text environments, and I prefer this in prose.
 
-This booklet is \emph{not} an introduction to LaTeX, and it is \emph{not} to expound the virtues of LaTeX; such things have already been written. This booklet instead attempts to help other people by directing them to documentations and resources that I wish I had on-hand much earlier in my journey.
+This booklet is \emph{not} an introduction to LaTeX, and it is \emph{not} to expound the virtues of LaTeX; such things have already been written. This booklet instead attempts to help people by directing them to documentations and resources that I wish I had used much earlier in my journey.
 
 %\part{One - documentation}
 \chapter{\LaTeX{} Documentation}
-Without good documentation, there is no such thing as a good system or program, or whatever the \emph{thing} is. It is my view that good documentation cannot save a bad project, but bad documentation can hamstring a good one.
+Without good documentation, there is no such thing as a good system, or program, or whatever the \emph{thing} is. It is my view that good documentation cannot save a bad project, but bad documentation can hamstring a good one.
 
 If you read this chapter, you will arrive at the end with the knowledge of where to go to learn about LaTeX, where to lookup commands and markup, and where to go for tutorials on your very first documents.
 
@@ -50,26 +50,31 @@ However, it is necessary to speak briefly on LaTeX first, or else confusion will
 
 The place to begin is with \TeX{}.
 
-TeX was made by Donald Knuth to improve the typesetting of academic articles and books, which he noticed to be in decline with the introduction of digital technologies. An axiom of \TeX{} is that is it a \emph{typesetting} program. 
+TeX was made by Donald Knuth to improve the typesetting-quality of academic articles and books, which he noticed to be in decline as then-new digital technologies were introduced into the workflow. An axiom of \TeX{} is that it is a \emph{typesetting} program. 
 
-The manual typesetters of old had to forge a path from handwritten manuscripts to formatted print. They had to make decisions about what fonts to use, what types of words to make italic, how to format their chapter-breaks and so on. The manuscript would be 'marked-up' to communicate specific instances of typesetting action; an underlined word usually meant 'make this italic', for example. However, even at this stage there was still a lot of work to be done in figuring out exactly how to execute those instructions — when to break to a new line, when to hyphenate a word, and such. Typesetters were constantly calculating within the overall instructions that they had developed for the text\footnote{I believe that, to this day, we have not surpassed the technical excellence of the typesetters of the 19\textsuperscript{th} century.}
+The manual typesetters of old had to forge a path from handwritten manuscripts to formatted print. They had to make decisions about what fonts to use, what types of words to make italic, how to format their chapter-breaks, and so on. The manuscript would be `marked-up' to communicate specific instances of typesetting action; an underlined word usually meant 'make this italic', for example. However, even with these steps completed, there was still work to be done in figuring out exactly how to execute those instructions — when to break to a new line, when to hyphenate a word, and such. Typesetters effectively calculated an optimum within the instructions they had for the text\footnote{I believe that, to this day, we have not surpassed the technical excellence of the typesetters of the 19\textsuperscript{th} century.}
 
-The way TeX works is sometimes likened to the process of typesetting. We write the overall instructions and markup the text using the TeX language. The TeX program then takes those instructions and markup, and transforms these into machine-readable instructions and the engine runs calculations to optimise how the document is rendered, then produces an output, usually in the form of a PDF (portable document format) file.
+The way TeX works is sometimes likened to the process of typesetting. The overall instructions and the markup for the text are written using the TeX language. The TeX program then takes those instructions and markup, transforming them into machine-readable instructions, and the engine runs calculations to optimise how the document is rendered. The output produced is usually in the form of a PDF (portable document format) file.
 
-You will notice people referring to the to different TeX components: the TeX markup/programming language, the TeX program, the TeX typesetting engine. As a whole, TeX might be called a system. These components were all made as part of a synchronous workflow, but there is good reason to consider these elements of the workflow separately, at times.
+You will notice people referring to the different TeX components: the TeX markup/programming language, the TeX program, the TeX typesetting engine. As a whole, TeX is a system; these component are all part of a synchronous workflow. However, there is often call to consider these elements of the workflow separately. For one thing, the partitioning of the workflow is what makes possible the clarity of meaning that has made TeX so effective (as outlined in dot-points below).
 
-Outside typographic professionals and programming professionals, most people use \LaTeX{}, not \TeX{}.
+TeX uses markup — quite a descriptive one. Applications of the idea of markup\footnote{In the digital sphere, that is.} — including TeX — really exploded in the early 80's, although it had been around since 1969 with the invention of GML (Generalised Markup Language). The development of markup languages has been important for file encoding. For instance, the `x' in the `.docx' file extension stands for `XML' (Exstensible Markup Language): XML is a descendant of GML. But for us, the focus is on typography. The idea behind markup is so simple it's hard to explain. The hand-drawn underline indicating emphasis of a word adds meaning without transforming the word itself. In the same way, digital markup adds meaning without actually changing the original information. In most common word processors, italicising a word means it is also displayed in that form: the word is altered. TeX, however, uses plain-text and markup, so it does not conflate the original meaning and presentation. TeX is a `What You \emph{Mean} is What You Get' system, as opposed to a `What You \emph{See} is What You Get' system. The result achieved by TeX is a system that many people still consider to be the best option today, some forty years later.
 
-LaTeX is a set of macros written for TeX by Leslie Lamport in the early 80's (TeX had its origins in the 70's!). In LaTeX, a few simple lines of code sets you up with a document that would be much more complicated and challenging in TeX. You actually are using TeX in the background, and the typesetting is still based on TeX; you're just using a few LaTeX commands to represent many more TeX commands. If little customisation is introduced to a LaTeX document, it will naturally resemble one of the base templates (that is: the default macros), but it is quite easy to customise the document from this baseline, and in many cases you will even interweave a few commands in base TeX language. Because LaTeX can streamline many parts of the process, we can focus effort where it belongs: on the text itself.
+Outside typographic professionals and programming professionals, most people use \LaTeX{}, not \TeX{}. Up until this point, I have been talking about TeX, but I do not think the potential of TeX would have been realised without the advent of LaTeX.
 
-People use LaTeX today because of:
+LaTeX is a set of macros written for TeX by Leslie Lamport in the early 80's (TeX had its origins in the 70's!). In LaTeX, a few simple lines of code sets you up with a document that would be more complicated in TeX. You actually are using TeX in the background, and the typesetting engine is still a TeX engine; you're just using a few LaTeX commands to represent many more TeX commands. If little customisation is introduced to a LaTeX document, it will naturally resemble one of the base templates (that is: of the sets of default macros), but it is quite easy to customise the document from this baseline, and in many cases you will interweave a few commands in base TeX language. Because LaTeX can streamline many parts of the process, we can more easily harness the idea of markup and focus effort where it belongs: on the text itself.
+
+People use LaTeX today because:
 \begin{itemize}
-    \item The typography is excellent
-    \item The input file is plain text, which comes with a number of advantages. A few are:
-    \item[-] You can use markup and commands to indicate formatting, meaning that the content (that is: your writing) is actually separate from the presentation.
-    \item[-] Following from the above, the file is often more stable
-    \item[-] Being able to 'say what you mean', rather than going through a 'what you see is what you get' system, creates clarity and precision.
-    \item It is relatively easy to produce things like tables of contents, bibliographies, and cross-references. LaTeX is considered ideal for thesis-writing because of this.
+    \item The typography is excellent. There are many reasons behind this, but one not mentioned yet is that the algorithms for calculating things like kerning — the spacing between letters and words — is good.
+    \item You can use markup and commands to indicate formatting, meaning that the content (that is: your writing) is separate from the presentation.
+    \item The input file is plain-text, which comes with a number of advantages, including stability of the file. 
+    \item Being able to 'say what you mean', rather than going through a 'what you see is what you get' system, creates clarity and precision.
+    \item It is relatively easy to produce things like tables of contents, bibliographies, and cross-references. Because of this, LaTeX is considered ideal for thesis-writing.
+    \item Logical structure of documents can be clearly specified, which can be helpful for denser and/or longer documents.
+    \item The typeset is produced from the plain-text file by the engine, so there is less tendency to fiddle with the end-format; interventions have to be specified in text. The documents are less prone to become sensitive to small shifts of things like pictures or tables.
+    \item Many packages have been written over time, extending the functionality of LaTeX.
+    \item Tex and LaTeX are a part of the open-source sphere. The systems are maintained and extended with the help of a vast, highly-skilled community\footnote{See XeTeX, for example.}.
 \end{itemize}
 
 \section*{Official Documentation, or Just Offal?}
