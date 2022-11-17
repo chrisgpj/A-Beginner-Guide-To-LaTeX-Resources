@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  17 NOV 2022 01:28
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  17 NOV 2022 19:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -536,69 +536,71 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <20.74> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 49.
+(Font)              <14.4> on input line 47.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 49.
+(Font)              <7> on input line 47.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 55.
+(Font)              <9> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 55.
+(Font)              <5> on input line 53.
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
 [][] [][][]\TU/lmr/m/n/9 I believe that, to this day, we have not surpassed the technical excellence of the type-
  []
 
 
-Overfull \hbox (20.74324pt too wide) in paragraph at lines 55--56
+Overfull \hbox (20.74324pt too wide) in paragraph at lines 53--54
 []\TU/lmr/m/n/10.95 The manual typesetters of old had to forge a path from handwritten manuscripts 
  []
 
 [5
 
-] [6] [7]
-Overfull \hbox (3.09183pt too wide) in paragraph at lines 80--81
-\TU/lmr/m/n/10.95 and other technical typography such as equations. The presentation of maths 
- []
+] [6] [7] [8] [9
 
-[8]
-Overfull \hbox (1.26315pt too wide) in paragraph at lines 101--102
+]
+Overfull \hbox (1.26315pt too wide) in paragraph at lines 102--103
 \TU/lmr/m/n/10.95 sponds to the TeX macros that you are working with as your baseline. Mem- 
  []
 
-[9] [10] [11] [12] [13]
-Overfull \hbox (7.44997pt too wide) in paragraph at lines 182--183
+[10] [11] [12] [13] [14]
+Overfull \hbox (7.44997pt too wide) in paragraph at lines 184--185
 []\TU/lmr/m/n/10.95 However, the project funds are actually administered by the Tex Users Group.  
  []
 
-[14
+[15
 
 ]
-Overfull \hbox (0.51857pt too wide) in paragraph at lines 207--208
-\TU/lmr/m/n/10.95 with a program called TeXShop. Then I used overleaf for a short time. Now, 
+Overfull \hbox (9.76036pt too wide) in paragraph at lines 211--212
+\TU/lmr/m/n/10.95 stance, is fine with both: one just needs to make sure that the program/engine 
  []
 
-[15] [16
+[16]
+Overfull \hbox (0.89087pt too wide) in paragraph at lines 221--222
+\TU/lmr/m/n/10.95 and pieces without proper guidance. This is not a critique of stack exchange, 
+ []
+
+[17
 
 ]
 \tf@toc=\write5
 \openout5 = `Guide.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
  (/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 221.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 225.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
 Package rerunfilecheck Info: File `Guide.out' has not changed.
-(rerunfilecheck)             Checksum: EEB9638898706697EB84522D58AFCA1F;724.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
+(rerunfilecheck)             Checksum: 9F2A6E594D0BEB4713C3325501B7378C;788.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 225.
  ) 
 Here is how much of TeX's memory you used:
- 11404 strings out of 479418
- 166382 string characters out of 5884586
- 446230 words of memory out of 5000000
- 28806 multiletter control sequences out of 15000+600000
+ 11405 strings out of 479418
+ 166393 string characters out of 5884586
+ 445317 words of memory out of 5000000
+ 28807 multiletter control sequences out of 15000+600000
  541085 words of font info for 73 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 34i,14n,46p,1326b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,13n,46p,1192b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv (16 pages, 226088 bytes).
+Output written on /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv (17 pages, 231708 bytes).

@@ -39,57 +39,58 @@ In many places throughout this guide, I have used ``LaTeX'', rather than ``\LaTe
 This booklet is \emph{not} an introduction to LaTeX, and it is \emph{not} to expound the virtues of LaTeX; such things have already been written. This booklet instead attempts to help people by directing them to documentations and resources that I wish I had used much earlier in my journey.
 
 %\part{One - documentation}
-\chapter{\LaTeX{} Documentation}
+\chapter{Some Ideas Surrounding \LaTeX{}}
 Without good documentation, there is no such thing as a good system, or program, or whatever the \emph{thing} is. It is my view that good documentation cannot save a bad project, but bad documentation can hamstring a good one.
 
-If you read this chapter, you will arrive at the end with the knowledge of where to go to learn about LaTeX, where to lookup commands and markup, and where to go for tutorials on your very first documents.
-
-However, it is necessary to speak briefly on LaTeX first, or else confusion will abound later-on. The following synopsis is minimal, and only to provide context for \emph{this} guide and the accompanying repository materials.
+This discusses documentation and other resources. However, it is necessary to speak briefly on LaTeX first, or else confusion will abound later-on. The following synopsis is minimal, and only to provide context for \emph{this} guide and the accompanying repository materials.
 
 \section{The Structure of \LaTeX{}}
 
 The place to begin is with \TeX{}.
 
-TeX was made by Donald Knuth to improve the typesetting-quality of academic articles and books, which he noticed to be in decline as then-new digital technologies were introduced into the workflow. An axiom of \TeX{} is that it is a \emph{typesetting} program. 
+TeX was made by Donald Knuth to improve the typesetting-quality of academic articles and books, which he noticed to be in decline as then-new digital technologies were introduced into publishing workflows. An axiom of \TeX{} is that it is a \emph{typesetting} program. 
 
 The manual typesetters of old had to forge a path from handwritten manuscripts to formatted print. They had to make decisions about what fonts to use, what types of words to make italic, how to format their chapter-breaks, and so on. The manuscript would be `marked-up' to communicate specific instances of typesetting action; an underlined word usually meant 'make this italic', for example. However, even with these steps completed, there was still work to be done in figuring out exactly how to execute those instructions — when to break to a new line, when to hyphenate a word, and such. Typesetters effectively calculated an optimum within the instructions they had for the text\footnote{I believe that, to this day, we have not surpassed the technical excellence of the typesetters of the 19\textsuperscript{th} century.}
 
-The way TeX works is sometimes likened to the process of typesetting. The overall instructions and the markup for the text are written using the TeX language. The TeX program then takes those instructions and markup, transforming them into machine-readable instructions, and the engine runs calculations to optimise how the document is rendered. The output produced is usually in the form of a PDF (portable document format) file.
+The way TeX works is sometimes likened to the process of typesetting. The overall instructions and the markup for the text are written using the TeX language; the TeX program takes those instructions and markup, transforming them into machine-readable instructions, and the engine runs calculations to optimise how the document is rendered. The output produced is usually in the form of a PDF (portable document format) file.
 
-You will notice people referring to the different TeX components: the TeX markup/programming language, the TeX program, the TeX typesetting engine. As a whole, TeX is a system; these component are all part of a synchronous workflow. However, there is often call to consider these elements of the workflow separately. For one thing, the partitioning of the workflow has contributed to making TeX effective.
+You will notice people referring to the different TeX components: the TeX markup/programming language, the TeX program, the TeX typesetting engine. As a whole, TeX is a system; these component are all part of a synchronous workflow. However, there is often call to consider these elements of the workflow separately. I think that the staged workflow has definitely helped TeX to function well; beyond this opinion I really don't have the knowledge to comment further on the components of TeX; I think that one of the links below in this chapter will lead you to better information, in any case.
 
-TeX uses markup — quite a descriptive one. Applications of the idea of markup\footnote{In the digital sphere, that is.} really exploded in the early 80's, although it had been around since 1969 with the invention of GML (Generalised Markup Language). The development of markup languages has been important for file encoding. For instance, the `x' in the `.docx' file extension stands for `XML' (Exstensible Markup Language): XML is a descendant of GML. But for us, the focus is on typography. The idea behind markup is so simple it's hard to explain. The hand-drawn underline indicating emphasis of a word adds meaning without transforming the word itself. In the same way, digital markup adds meaning without actually changing the original information. In most common word processors, italicising a word means it is also displayed in that form: the word is altered. TeX, however, uses plain-text and markup, so it does not conflate the original meaning and presentation. TeX is a `What You \emph{Mean} is What You Get' system, as opposed to a `What You \emph{See} is What You Get' system. The result achieved by TeX is a system that many people still consider to be the best option today, some forty years later.
+TeX uses markup. The use of markup really exploded in the early 80's\footnote{In the digital sphere, that is.}, although it had been around since 1969 with the invention of GML (Generalised Markup Language). The development of markup languages has been important for file encoding. For instance, the `x' in the `.docx' file extension stands for `XML' (Exstensible Markup Language); and XML is a descendant of GML. But for us, the focus is on typography. The idea behind markup in typography is so simple it's hard to explain. The hand-drawn underline indicating emphasis of a word adds meaning without transforming the word itself. In the same way, digital markup adds meaning without actually changing the original information. 
 
-Outside typographic professionals and programming professionals, most people use \LaTeX{}, not \TeX{}. Up until this point, I have only mentioned TeX, but the workflow that I have described is more clearly seen in LaTeX. Indeed, I do not think the potential of TeX would have been realised without the advent of LaTeX.
+In most common word processors, italicising a word means it is also displayed in that form: the word is altered. TeX, however, uses plain-text and markup, so it does not conflate the original meaning and presentation. TeX keeps the presentation instructions separate and is a `What You \emph{Mean} is What You Get' system, as opposed to a `What You \emph{See} is What You Get' system.
 
-LaTeX is a set of macros written for TeX by Leslie Lamport in the early 80's (TeX had its origins in the 70's!). In LaTeX, a few simple lines of code sets you up with a document that would be more complicated in TeX. You actually are using TeX in the background, and the typesetting engine is still a TeX engine; you're just using a few LaTeX commands to represent many more TeX commands. If little customisation is introduced to a LaTeX document, it will naturally resemble one of the base templates (that is: of the sets of default macros), but it is quite easy to customise the document from this baseline, and in many cases you will interweave a few commands in base TeX language. Because LaTeX can streamline many parts of the process, we can more easily harness the idea of markup and focus effort where it belongs: on the text itself.
+Outside typographic professionals and programming professionals, most people use \LaTeX{}, not \TeX{}. Up until this point, I have only mentioned TeX, but the workflow that I have described is drawn more from my experience with LaTeX.
+
+LaTeX is a set of macros written for TeX by Leslie Lamport in the early 80's (TeX had its origins in the 70's!). In LaTeX, a few simple lines of code sets you up with a document that would be more complicated in TeX. You actually are using TeX in the background, and the typesetting engine is still a TeX engine; you're just using a few LaTeX commands to represent many more TeX commands. If little customisation is introduced to a LaTeX document, it will naturally resemble one of the base templates (that is: one of the default sets of macros), but it is quite easy to customise the document from this baseline, and in many cases you will interweave a few commands in base TeX language. Because LaTeX can streamline many parts of the process, we can focus effort where it belongs: on the text itself.
 
 People use LaTeX today because:
 \begin{itemize}
-    \item The typography is excellent. There are many reasons behind this, but one not mentioned yet is that the algorithms for calculating things like kerning — the spacing between letters and words — is good.
-    \item You can use markup and commands to indicate formatting, meaning that the content (that is: your writing) is separate from the presentation.
+    \item The typography is considered excellent. There are many reasons behind this, but one not mentioned yet is that the algorithms for calculating things like kerning — the spacing between letters and words — are good.
+    \item You can use markup and commands to indicate formatting, meaning that the content (that is: your writing) is separate from the presentation. Being able to 'say what you mean', rather than going through a 'what you see is what you get' system, creates clarity and precision.
     \item The input file is plain-text, which comes with a number of advantages, including stability of the file. 
-    \item Being able to 'say what you mean', rather than going through a 'what you see is what you get' system, creates clarity and precision.
-    \item It is relatively easy to produce things like tables of contents, bibliographies, and cross-references. Because of this, LaTeX is considered ideal for thesis-writing.
-    \item Logical structure of documents can be clearly specified, which can be helpful for denser and/or longer documents.
-    \item The typeset is produced from the plain-text file by the engine, so there is less tendency to fiddle with the end-format; interventions have to be specified in text. The documents are less prone to become sensitive to small shifts of things like pictures or tables.
-    \item Many packages have been written over time, extending the functionality of LaTeX.
+    \item It is easy to produce things like tables of contents, bibliographies, and cross-references. Because of these features, LaTeX is considered ideal for thesis-writing.
+    \item The structure of documents can be clearly specified, which can be helpful for denser and/or longer documents.
+    \item The typeset is produced, by the engine, from the plain-text input, so there is less tendency to fiddle with the end-format; interventions in the presentation have to be specified in the input file. The documents are less sensitivity to small shifts of things like pictures or tables.
+    \item Many packages have been written for TeX and LaTeX over time, extending the functionality.
     \item Tex and LaTeX are a part of the open-source sphere. The systems are maintained and extended with the help of a vast, highly-skilled community\footnote{See XeTeX, for example.}.
 \end{itemize}
 
-Finally, LaTeX is a powerful and effective typesetter for maths equations and other technical typography such as equations. The presentation of maths was one of the key things that Knuth wanted to solve with his original TeX system. In this guide I have been biased towards LaTeX as a general typesetting system, and that is because I have used it so much for this purpose.
+\subsection{An Addendum}
+Finally, LaTeX is a powerful and effective typesetter for maths equations and other technical typography such as tables. The presentation of maths was one of the key things that Knuth wanted to solve with his original TeX system. In this guide I have been biased towards LaTeX as a general typesetting system, but that is only because I have used it so much for that purpose.
 
 An introduction to the history of TeX is given here:
 
 \url{https://tug.org/whatis.html}
 
-You will see in chapter three that this website (the website of the TeX User Group, or `TUG') is the official homepage of TeX.
+You will see in a later chapter that this website (the website of the TeX User Group, or `TUG') is the official homepage of TeX.
 
+\chapter{Documentation}
 \section*{Official Documentation, or Just Offal?}
 
-Knuth wrote a manual for TeX, just as he has written many books on computer programming. Some people have noted that this is not exactly for a general audience. It teaches technical authors how to typeset, and one hurdle there is that it may already assume a good deal of technical literacy. However, we need not worry about these things, because we are using LaTeX.
+Knuth wrote a manual for TeX, just as he has written many books on computer programming. Some people have commented that this book is not exactly for a general audience. It teaches technical authors how to typeset, and I speculate that one hurdle there is that it may already assume a good deal of technical literacy. However, we need not worry about these things, because we are using LaTeX.
 
-Lamport wrote a manual, ``LaTeX: A Document Preparation System''. Even though it is from 1985, that book is, for the most part, viable. However, very few people seem to use it. It is barely ever referenced on forums, and I suspect that it has simply not been made accessible enough for it to remain at the top of the recommended resource list. One of my reasons for this view is examples of an alternative. I like the documentation for Python. It is easy to access, and you know that it is a definitive source. With time spent reading, you can make headway. With LaTeX however, there are many disparate resources that refer to the manual, but the manual itself does not seem to be possessed by all LaTeX users. Instead, the community has immediate online access to other resources, some of which are written by people who have made excellent packages for LaTeX and have been deeply involved in its maintenance. I feel that the absence of `official documentation' explains some of the difficulty that people have in learning LaTeX. I hope that this guide saves some time and stress in that regard.
+Lamport wrote the manual, ``LaTeX: A Document Preparation System''. Even though it is from 1985, that book is, for the most part, viable. However, very few people seem to use it. It is barely ever referenced on forums, and I suspect that it has simply not been made accessible enough for it to remain at the top of the recommended resource list. One of my reasons for this view is examples of an alternative. I like the documentation for Python. It is easy to access, and you know that it is a definitive source. With time spent reading, you can make headway. With LaTeX however, there are many disparate resources that refer to the manual, but the manual itself does not seem to be possessed by all LaTeX users. Instead, the community has immediate online access to other resources, some of which are written by people who have made excellent packages for LaTeX and have been deeply involved in its maintenance. I feel that the absence of `official documentation' explains some of the difficulty that people have in learning LaTeX. I hope that this guide saves some time and stress in that regard.
 
 \section{A couple of Favourite Documentations}
 So, what has the community produced and made available for free? From what I can see, probably everything you need to get started.
@@ -106,9 +107,9 @@ I like it because it is comprehensive, well-explained, sensitive to broader conc
 
 I advise you to look at the memoir documentation, but not necessarily to use it as your first starting point. I know that you are a wonderful, intelligent, trailblazing scientist, but one of the below recommendations will still serve you well as the first step; memoir is something to come back to later, especially if you ever work in a book format.
 
-\subsection{A Not So Short Introduction}
+\subsection{The Not So Short Introduction}
 
-The ``Not So Short Introduction to LaTeX'' is a well-established reference guide and introduction to LaTeX. I like it because it acts as a reference book, but then does not skim over things too fast. It genuinely introduces you to LaTeX by carefully thinking about the sorts of things that new LaTeX users would find useful. Consequently, it is indeed not very short — but that is why such things have chapters and a table of contents.
+``The Not So Short Introduction to LaTeX'' is a well-established reference guide and introduction to LaTeX. I like it because it acts as a reference book, but then does not skim over things too fast. It genuinely introduces you to LaTeX by carefully thinking about the sorts of things that new LaTeX users would find useful. Consequently, it is indeed not very short — but that is why such things have chapters and a table of contents.
 
 I recommend this guide as one of your possible starting points. It will provide you with a good introduction, good reference material, and it will help you to write concise code from the outset.
 
@@ -118,7 +119,7 @@ The bibliography for the \emph{Note So Short Introduction} is an excellent list 
 
 Continuing our journey to a good beginning-point: Overleaf. Now, Overleaf is not really a documentation source. It is a website that offers a free, online LaTeX editor, and has some pretty good tutorial/reference-guides available as well. I think that you will get on quite well starting with the overleaf editor if you do not have something like VS Code set up; without such a set-up, LaTeX can get a bit overwhelming\footnote{See chapter three for installing LaTeX}.
 
-But my purpose here is to examine the documentation side of things. Overleaf has documentation, the first part of which is a tutorial ambitiously named ``learn LaTeX in 30 minutes''. This is a good place to start if you want to get going. However, as you move forwards, you should transition to also using things like the `Not So Short Introduction', and the memoir class documentation. These documentations are essentially whole books at your disposal. They are more comprehensive than overleaf, and allow some more space to get around LaTeX in a structured way.
+But my purpose here is to examine the documentation side of things. Overleaf has a `documentation' of sorts, the first part of which is a tutorial ambitiously named ``learn LaTeX in 30 minutes''. This may be a good place to start if you want to get going. However, as you move forwards, you should transition to also using things like the `Not So Short Introduction', and the memoir class documentation. These documentations are essentially whole books at your disposal. They are more comprehensive than overleaf, and allow you to get around LaTeX in a structured way.
 
 I like overleaf because it is aware of the symbiotic role it plays in the LaTeX community by supplying these beginning points.
 
@@ -137,23 +138,23 @@ I like overleaf because it is aware of the symbiotic role it plays in the LaTeX 
 \section{Other Documentations}
 \subsection{XeTeX}
 
-LaTeX predates the compatibility of character encoding and fonts that we now take for granted. Character encoding has been particularly important for programs being able to work for multiple languages.
+LaTeX predates the compatibility of character encoding and fonts that we now take for granted. Character encoding has been particularly important for programs being able to work for multiple languages\footnote{Meaning natural languages, such as English, Finnish, etc.}.
 
-Because the initial LaTeX system predates things like Unicode, new engines have been built that to achieve compatibility. One advantage of these new engines is that they can use a wider array of fonts. Most LaTeX users are actually using variations, usually XeTeX or LuaTeX. I use XeTeX, as it seems to be the most comprehensive option, and I have not encountered any case against it.
+Because the initial TeX system predates things like Unicode, new engines have been built that to achieve compatibility. One advantage of these new engines is that they can use a wider array of fonts. Most LaTeX users are actually using variations, usually XeTeX or LuaTeX. I use XeTeX\footnote{Or XeLaTex.}, as it seems to be the most comprehensive option, and I have not encountered any case against it.
 
 XeTeX, and the situation with encodings and fonts that led to its development, are introduced in the XeTeX Companion, which is in the Documentations folder.
 
-Both \emph{Memoir} and the \emph{Not So Short Introduction} suggest XeTeX and provide a gentle initiation to the underlying ideas and application.
+Both \emph{Memoir} and the \emph{Not So Short Introduction} suggest XeTeX and themselves provide a gentle initiation to the underlying ideas and application.
 
 \subsection{BiBTeX}
 
-LaTeX probably became a truly powerful typesetting system for academics with the advent of BiBTeX, an in-built program that produces bibliographies. The bibliographies are produced from a library of citations, a citation style, and the corresponding citation keys that are in the document.
+LaTeX may have became a truly powerful typesetting system for academics with the advent of BiBTeX, an in-built program that produces bibliographies. The bibliographies are produced from a library of citations, a citation style, and the corresponding citation keys that are in the document.
 
-There are a few ways to go about citations, as explained in \emph{Memoir} and the \emph{Not So Short Introduction}. However, the most common way of approaching citations and bibliographies appears to be either BiBTeX, are a direct descendant of BiBTeX that has introduced another facet of compatibility.
+There are a few ways to go about citations, as explained in \emph{Memoir} and the \emph{Not So Short Introduction}. However, the most common way of approaching citations and bibliographies appears to be BiBTeX, or one of the direct descendant of BiBTeX that has introduced another facet of compatibility.
 
 My impression is that BiBTeX can seem more complicated than it is, at first, because it involves working with different files. But once the pieces are brought together it is just as concise as any other method.
 
-It is not yet clear to me whether one single descendent of BiBTeX is best option, but I get the impression that they are very similar to BiBTeX. I have provided the documentation to BiBTeX in this repository. While originally written in 1988 and with documentation updated in 2010, BiBTeX is still maintained (if it ever does become obsolete, it will be easy to use one of the descendents, such as BiBLaTeX.)
+It is not yet clear to me whether one single descendent of BiBTeX is best option, but I get the impression that they are very similar to BiBTeX. I have provided the documentation to BiBTeX in this repository. While originally written in 1988 and with documentation updated in 2010, BiBTeX is still maintained, and if it ever does become obsolete, it will be easy to use one of the descendants, such as BiBLaTeX.
 
 The \emph{Not So Short Introduction} suggests BiBLaTeX (which is invoked by loading the biblatex package). I found this easy to use. The documentation for biblatex is also provided in the repository.
 
@@ -168,6 +169,7 @@ As mentioned above, the bibliography for the \emph{Not So Short Introduction} is
     \item for Tables:
     \item[-] tabularx package
     \item[-] array package
+    \item[] To be Continued...
 \end{itemize}
 
 \chapter{Official Sites and Resources}
@@ -185,7 +187,7 @@ However, the project funds are actually administered by the Tex Users Group.
 
 \url{https://www.tug.org/}
 
-This website is possibly the most official base for LaTeX and TeX that there is online. 
+This website is the most official base for LaTeX and TeX that there is online. 
 
 The Tex Users Group is the administrator of the LaTeX Project.
 
@@ -198,13 +200,15 @@ Example of things you would go to this site for are font catalogues, documentati
 
 So far we have been introduced to LaTeX, it's documentation, and the TeX User Group. A good next step would be installing TeX and getting started.
 
-The thing you are usually after is TeXLive, the distribution of TeX that is updated frequently with the necessary packages, engine options, and fonts needed to use LaTeX. It also provides a simple program for actually running LaTeX: for entering input and producing outputs, usually int he form of a pdf.
+The thing you are usually after is \emph{TeXLive}, the distribution of TeX that is kept up-to-date with updated frequently, engine options, fonts\footnote{A favourite of mine is Cormorant Garamond.}, and such. It also provides a simple program for actually running LaTeX: for entering input and running it through the engine, producing the output.
 
-TeXLive is distributed through CTAN, but if you go to any of the above websites, you will get there.
+TeXLive is distributed by TUG, but if you go to any of the above websites, you will get there.
 
 I will add a resource on setting up workflow, soon, if I come to a good one.
 
-I started off using MacTeX (very similar to TeXLive), which provided me with a program called TeXShop. Then I used overleaf for a short time. Now, I use Visual Studio Code with the LaTeX Workshop extension, and recommend that you use a similar IDE (integrated development environment\footnote{Consider R Studio: I would call that a good IDE for R.}).
+I started off using MacTeX (the version of TeXLive for Macs), which provided me with a program called TeXShop. Then I used overleaf for a short time. Now, I use Visual Studio Code with the LaTeX Workshop extension, and recommend that you use a similar IDE (integrated development environment\footnote{Consider R Studio: I would call that a good IDE for R.}).
+
+It does not really matter if you are using TeX or LaTeX. TeXShop, for instance, is fine with both: one just needs to make sure that the program/engine that is selected matches the way the input-file has been written.
 
 \chapter{Online Help}
 
@@ -214,8 +218,8 @@ There are a few places you can go for help online, including tutorial websites a
 
 Visit Stack Exchange with caution. Many of the answers are excellent, and many are quite terrible.
 
-I have found the longer documentation for LaTeX to be much more useful than any of the shorter online resources. Online help has been crucial for me, but I have also been through a phase of bad habits, formed by picking out bits and pieces without proper guidance.
+I have found the longer documentation for LaTeX to more useful than any of the shorter online resources. Online help has been crucial for me, but I have also been through a phase of bad habits, formed by picking out bits and pieces without proper guidance. This is not a critique of stack exchange, but rather an observation that long-form resources have an immense synergy with shorter resources on specific problems.
 
-I have to admit that my main limitation is not being comfortable in the digital sphere. Too many things seem arbitrary. It is like a world where acronyms abound, without knowledge of their meaning being essential to aptitude. It could be that I prefer referring to written documents, rather than other media, so that I can process the assumptions behind each piece of information. I have not yet found YouTube to be a great resource on LaTeX, but others may get on well there.
+I have to admit that my main limitation to learning LaTeX is not being comfortable in the digital sphere. Too many things seem arbitrary. It is like a world where acronyms abound, without knowledge of their meaning being essential to aptitude. It could be that I prefer referring to written documents, rather than other media, so that I can process the assumptions behind each piece of information. I have not yet found YouTube to be a great resource on LaTeX, but others may get on well there.
 
 \end{document}
