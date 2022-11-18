@@ -1,11 +1,11 @@
 # Fdb version 3
-["xdvipdfmx"] 1668769459 "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv" "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.pdf" "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide" 1668769460
-  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv" 1668769459 259568 40a77d9aa1c0cbd8c531d78ef083f534 "xelatex"
+["xdvipdfmx"] 1668769742 "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv" "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.pdf" "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide" 1668769742
+  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv" 1668769741 259616 7c31008cc9583bcc9ed7ddf562aaed8f "xelatex"
   (generated)
   "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.pdf"
-["xelatex"] 1668769458 "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.tex" "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv" "Guide" 1668769460
-  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.aux" 1668769459 3913 3ee7e0efa0a79834e8a824cee324aea9 ""
-  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.tex" 1668769458 24884 525888223ceac765211ded6ca39655a3 ""
+["xelatex"] 1668769740 "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.tex" "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv" "Guide" 1668769742
+  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.aux" 1668769741 3913 3ee7e0efa0a79834e8a824cee324aea9 ""
+  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.tex" 1668769739 24887 cfcf9efb08e2781303000fdafbf00437 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -75,15 +75,15 @@
   "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
   "/usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt" 1586288269 4769632 cea4f80911e5df070b1f6d7834d4faf8 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "Guide.aux" 1668769459 3913 3ee7e0efa0a79834e8a824cee324aea9 "xelatex"
-  "Guide.out" 1668769459 885 5547fbf4fe61f8a8f9e37cd3555f28b2 "xelatex"
-  "Guide.tex" 1668769458 24884 525888223ceac765211ded6ca39655a3 ""
-  "Guide.toc" 1668769459 1801 e6314cf1c4e695512857a426fb630d7f "xelatex"
+  "Guide.aux" 1668769741 3913 3ee7e0efa0a79834e8a824cee324aea9 "xelatex"
+  "Guide.out" 1668769741 885 5547fbf4fe61f8a8f9e37cd3555f28b2 "xelatex"
+  "Guide.tex" 1668769739 24887 cfcf9efb08e2781303000fdafbf00437 ""
+  "Guide.toc" 1668769741 1801 e6314cf1c4e695512857a426fb630d7f "xelatex"
   (generated)
-  "Guide.out"
-  "Guide.toc"
-  "Guide.aux"
-  "Guide.log"
-  "Guide.xdv"
-  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.log"
   "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv"
+  "Guide.toc"
+  "Guide.log"
+  "Guide.aux"
+  "Guide.xdv"
+  "Guide.out"
+  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.log"
