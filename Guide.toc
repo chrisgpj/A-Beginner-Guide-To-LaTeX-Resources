@@ -2,14 +2,14 @@
 \contentsline {chapter}{\chapternumberline {1}Introduction}{4}{chapter.1}%
 \contentsline {subsection}{A note on the text}{4}{section*.2}%
 \contentsline {chapter}{\chapternumberline {2}Some Ideas Surrounding \LaTeX {}}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}The Structure of \LaTeX {}}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.1}The Structure of \LaTeX {}}{6}{section.2.1}%
 \contentsline {subsection}{An Addendum}{9}{section*.3}%
-\contentsline {subsection}{Why Not To Use LaTeX}{9}{section*.4}%
+\contentsline {subsection}{Why Not To Use LaTeX}{10}{section*.4}%
 \contentsline {chapter}{\chapternumberline {3}Documentation}{11}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Official Documentation, or Just Offal?}{11}{section.3.1}%
 \contentsline {section}{\numberline {3.2}A couple of Favourite Documentations}{12}{section.3.2}%
 \contentsline {subsection}{Memoir}{12}{section*.5}%
-\contentsline {subsection}{The Not So Short Introduction}{12}{section*.6}%
+\contentsline {subsection}{The Not So Short Introduction}{13}{section*.6}%
 \contentsline {subsection}{Overleaf}{13}{section*.7}%
 \contentsline {section}{\numberline {3.3}Summary So Far}{14}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Other Documentations}{14}{section.3.4}%
