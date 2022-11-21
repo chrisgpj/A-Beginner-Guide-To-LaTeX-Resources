@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  21 NOV 2022 18:10
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  21 NOV 2022 20:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -365,15 +365,40 @@ Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 
+Package fontspec Info: TeX Gyre Cursor scale = 1.033570817515907.
+
+
+Package fontspec Info: TeX Gyre Cursor scale = 1.033570817515907.
+
+
 Package fontspec Info: Font family 'TeXGyreCursor(0)' created for font 'TeX
 (fontspec)             Gyre Cursor' with options
-(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={}].
+(fontspec)             [Scale=MatchLowercase,BoldFont={},ItalicFont={},SmallCapsFont={}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"TeX Gyre
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.033570817515907]"TeX Gyre
 (fontspec)             Cursor/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: EBGaramond-Regular scale = 1.077499233577659.
+
+
+Package fontspec Info: EBGaramond-Regular scale = 1.077499233577659.
+
+
+Package fontspec Info: Font family 'EBGaramond-Regular(0)' created for font
+(fontspec)             'EBGaramond-Regular' with options
+(fontspec)             [Scale=MatchLowercase,BoldFont={},ItalicFont={},SmallCapsFont={}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.077499233577659]"EBGaramond-Regular/OT:script=latn;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
  (/usr/local/texlive/2020/texmf-dist/tex/latex/ragged2e/ragged2e.sty
@@ -505,91 +530,91 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 ) (/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.aux)
 \openout1 = `Guide.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 21.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 18.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 18.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 18.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 18.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 18.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 18.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 18.
-LaTeX Font Info:    Redeclaring math accent \check on input line 18.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 18.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 18.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 18.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 18.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 21.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 21.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 21.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 21.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 21.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 21.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 21.
+LaTeX Font Info:    Redeclaring math accent \check on input line 21.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 21.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 21.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 21.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 21.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 18.
+(Font)              `operators' in the math version `normal' on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 18.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 21.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 18.
+(Font)              `operators' in the math version `bold' on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 18.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 18.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 18.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 18.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 18.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 18.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 18.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 18.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 18.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 21.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 18.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 21.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 18.
+LaTeX Info: Redefining \selectfont on input line 21.
 \AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring OFF on input line 18.
+Package hyperref Info: Link coloring OFF on input line 21.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -601,22 +626,22 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 18.
-LaTeX Info: Redefining \ref on input line 18.
-LaTeX Info: Redefining \pageref on input line 18.
-LaTeX Info: Redefining \nameref on input line 18.
+LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
 (/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.out) (/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.out)
 \@outlinefile=\write4
 \openout4 = `Guide.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 21.
+(Font)              <17.28> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 21.
+(Font)              <12> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 21.
+(Font)              <8> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 21.
+(Font)              <6> on input line 24.
  (/usr/local/texlive/2020/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 ) [1
@@ -628,11 +653,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <24.88> on input line 44.
+(Font)              <24.88> on input line 47.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 44.
+(Font)              <20.74> on input line 47.
 
-Overfull \hbox (6.39876pt too wide) in paragraph at lines 47--48
+Overfull \hbox (6.39876pt too wide) in paragraph at lines 50--51
 \TU/lmr/m/n/10.95 ever, it is necessary to speak briefly on LaTeX first, or confusion may abound. 
  []
 
@@ -640,81 +665,90 @@ Overfull \hbox (6.39876pt too wide) in paragraph at lines 47--48
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 49.
+(Font)              <14.4> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 49.
+(Font)              <7> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 53.
+(Font)              <9> on input line 57.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 53.
-Missing character: There is no τ in font [lmroman9-regular]:mapping=tex-text;!
-Missing character: There is no ε in font [lmroman9-regular]:mapping=tex-text;!
-Missing character: There is no χ in font [lmroman9-regular]:mapping=tex-text;!
-Missing character: There is no τ in font [lmroman9-regular]:mapping=tex-text;!
-Missing character: There is no ε in font [lmroman9-regular]:mapping=tex-text;!
-Missing character: There is no χ in font [lmroman9-regular]:mapping=tex-text;!
+(Font)              <5> on input line 57.
+LaTeX Font Info:    Font shape `TU/EBGaramond-Regular(0)/m/n' will be
+(Font)              scaled to size 9.6975pt on input line 57.
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
 []\TU/lmr/m/n/9 “English words like ”technology” stem from a Greek root beginning with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-\TU/lmr/m/n/9 the letters τεχ ...; and this same Greek word means art as well as technology.
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\TU/lmr/m/n/9 the letters \TU/EBGaramond-Regular(0)/m/n/9 τεχ \TU/lmr/m/n/9 ...; and this same Greek word means art as well as technology.
  []
 
 Missing character: There is no χ in font [lmroman9-regular]:mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
 []\TU/lmr/m/n/9 Insiders pronounce the χ of TeX as a Greek chi, not as an ”x”, so that
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
 \TU/lmr/m/n/9 TeX rhymes with the word blecchhh. It’s the ”ch” sound in Scottish words
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
 \TU/lmr/m/n/9 like loch or German words like ach; it’s a Spanish ”j” and a Russian ”kh”.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
 \TU/lmr/m/n/9 When you say it correctly to your computer, the terminal may become
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 [][] [][][]\TU/lmr/m/n/9 I believe that, to this day, we have not surpassed the technical excellence of the type-
  []
 
 
-Overfull \hbox (20.74324pt too wide) in paragraph at lines 57--58
+Overfull \hbox (20.74324pt too wide) in paragraph at lines 61--62
 []\TU/lmr/m/n/10.95 The manual typesetters of old had to forge a path from handwritten manuscripts 
  []
 
-[6] [7] [8] [9] [10] [11
+[6]
+LaTeX Font Info:    Font shape `TU/TeXGyreCursor(0)/m/n' will be
+(Font)              scaled to size 11.31757pt on input line 76.
+ [7] [8] [9] [10] [11
 
 ]
-Overfull \hbox (1.26315pt too wide) in paragraph at lines 127--128
+Overfull \hbox (1.26315pt too wide) in paragraph at lines 131--132
 \TU/lmr/m/n/10.95 sponds to the TeX macros that you are working with as your baseline. Mem- 
  []
 
-[12] [13] [14] [15] [16]
-Overfull \hbox (7.44997pt too wide) in paragraph at lines 209--210
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+[][] [][][]\TU/lmr/m/n/9 I was starting to learn how to write good LaTeX code from the weight of experi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+\TU/lmr/m/n/9 ence. It was both encouraging and agonising to find one of the \TU/lmr/m/it/9 exact \TU/lmr/m/n/9 same habits I had
+ []
+
+[13] [14] [15] [16]
+Overfull \hbox (7.44997pt too wide) in paragraph at lines 213--214
 []\TU/lmr/m/n/10.95 However, the project funds are actually administered by the Tex Users Group.  
  []
 
 [17
 
 ]
-Overfull \hbox (9.76036pt too wide) in paragraph at lines 236--237
+Overfull \hbox (9.76036pt too wide) in paragraph at lines 240--241
 \TU/lmr/m/n/10.95 stance, is fine with both: one just needs to make sure that the program/engine 
  []
 
 [18]
-Overfull \hbox (0.89087pt too wide) in paragraph at lines 246--247
+Overfull \hbox (0.89087pt too wide) in paragraph at lines 250--251
 \TU/lmr/m/n/10.95 and pieces without proper guidance. This is not a critique of stack exchange, 
  []
 
@@ -724,22 +758,22 @@ Overfull \hbox (0.89087pt too wide) in paragraph at lines 246--247
 \tf@toc=\write5
 \openout5 = `Guide.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 252.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
  (/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 252.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 252.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 256.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
 Package rerunfilecheck Info: File `Guide.out' has not changed.
 (rerunfilecheck)             Checksum: 5547FBF4FE61F8A8F9E37CD3555F28B2;885.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 252.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
  ) 
 Here is how much of TeX's memory you used:
- 13939 strings out of 479418
- 259566 string characters out of 5884586
- 587883 words of memory out of 5000000
- 31311 multiletter control sequences out of 15000+600000
- 541133 words of font info for 79 fonts, out of 8000000 for 9000
+ 13961 strings out of 479418
+ 260114 string characters out of 5884586
+ 588475 words of memory out of 5000000
+ 31325 multiletter control sequences out of 15000+600000
+ 541173 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 44i,13n,69p,1252b,368s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,13n,118p,1252b,368s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv (20 pages, 269128 bytes).
+Output written on /Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv (20 pages, 273248 bytes).

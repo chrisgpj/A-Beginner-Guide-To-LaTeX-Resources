@@ -1,6 +1,9 @@
 \documentclass[11pt, oneside]{memoir}
 \usepackage[]{fontspec}
+\defaultfontfeatures{Scale=MatchLowercase}
 \newfontface\gc{TeX Gyre Cursor}
+\newfontface\ebg{EBGaramond-Regular}
+\NewDocumentCommand{\nf}{}{\normalfont}
 
 \usepackage[]{ragged2e}
 
@@ -31,28 +34,29 @@
 \chapter{Introduction}
 I decided to compile a guide to the documentation of \LaTeX{}. Such a guide is needed, because there are many good works that can help a person to become erudite in \LaTeX{}, but they are not always obvious; and in every place where a good work is not found, a less satisfactory explanation stands.
 
-This guide is \emph{not} an introduction to LaTeX; such things have already been written. This booklet instead attempts to help people by directing them to documentations and resources that I wish I had used much earlier in my journey. What more I have added is for the purpose of internal consistency.
+This guide is \emph{not} an introduction to LaTeX; such things have already been written. However, it will tell you where to find good introductions to LaTeX, and even where to go for your next stages of learning. In short, this booklet attempts to help people by directing them to documentations and resources that I wish I had used much earlier in my journey. What more I have added is for the purpose of internal consistency.
 
 The guide is accompanied by (and is a part of) a repository, which is available on github. The name of the repository is ``A Beginner Guide To LaTeX Resources''.
 
 \url{https://github.com/chrisgpj/A-Beginner-Guide-To-LaTeX-Resources}
 
 \subsection{A note on the text}
-In many places throughout this guide, I have used ``LaTeX'', rather than ``\LaTeX{}''. While ``''\LaTeX{}'' is the official rendering, ``LaTeX'' is official within plain-text environments, and I prefer this in prose.
+In many places throughout this guide, I have used ``LaTeX'', rather than ``\LaTeX{}''. While ``\LaTeX{}'' is the official rendering, ``LaTeX'' is official within plain-text environments, and I prefer this in prose.
 
 %\part{One - documentation}
 \chapter{Some Ideas Surrounding \LaTeX{}}
 Without good documentation, there is no such thing as a good system, or program, or whatever the \emph{thing} is. It is my view that good documentation cannot save a bad project, but bad documentation can hamstring a good one.
 
 This guide discusses documentation and other resources for LaTeX. However, it is necessary to speak briefly on LaTeX first, or confusion may abound. The following synopsis is minimal, and only to provide context for \emph{this} guide and the accompanying repository materials.
+
 \newpage
 \section{The Structure of \LaTeX{}}
 
-The place to begin is with \TeX{}\footnote{Here is a quote, attributed to Knuth: \begin{quotation}``English words like "technology" stem from a Greek root beginning with the letters τεχ ...; and this same Greek word means art as well as technology. Hence the name TeX, which is an uppercase form of τεχ.
+The place to begin is with \TeX{}\footnote{Here is a quote, attributed to Knuth: \begin{quotation}``English words like "technology" stem from a Greek root beginning with the letters \ebg τεχ \nf ...; and this same Greek word means art as well as technology. Hence the name TeX, which is an uppercase form of \ebg τεχ \nf.
 
 Insiders pronounce the χ of TeX as a Greek chi, not as an "x", so that TeX rhymes with the word blecchhh. It’s the "ch" sound in Scottish words like loch or German words like ach; it’s a Spanish "j" and a Russian "kh". When you say it correctly to your computer, the terminal may become slightly moist.``''\end{quotation}}.
 
-TeX was made by Donald Knuth to improve the typesetting-quality of academic articles and books, which he noticed to be in decline as then-new digital technologies were introduced into publishing workflows. An axiom of \TeX{} is that it is a \emph{typesetting} program. 
+TeX was made by Donald Knuth to improve the typesetting-quality of academic articles and books, which he noticed to be in decline as then-new digital technologies were introduced into publishing workflows. An axiom of \TeX{} is that it is a \emph{typesetting} program.
 
 The manual typesetters of old had to forge a path from handwritten manuscripts to formatted print. They had to make decisions about what fonts to use, what types of words to make italic, how to format their chapter-breaks, and so on. The manuscript would be `marked-up' to communicate specific instances of typesetting action; an underlined word usually meant 'make this italic', for example. However, even with these steps completed, there was still work to be done in figuring out exactly how to execute those instructions — when to break to a new line, when to hyphenate a word, and such. Typesetters effectively calculated an optimum within the instructions they had for the text\footnote{I believe that, to this day, we have not surpassed the technical excellence of the typesetters of the 19\textsuperscript{th} century.}
 
@@ -69,10 +73,10 @@ This is a sentence.
 
 \emph{This is a sentence in italics, which is the usual way of emphasising something in print.}
 
-The TeX input looks like this:\gc \textbackslash emph\{This is a sentence in italics, the usual way of emphasising something in print.\}. \normalfont If you sent the file to someone whose font, for some reason, did not have italics, they would still know the sentence is emphasised.
+The TeX input looks like this:\gc \textbackslash emph\{This is a sentence in italics, the usual way of emphasising something in print.\}. \nf If you sent the file to someone whose font, for some reason, did not have italics, they would still know the sentence is emphasised.
 \end{quotation}
 
-Note the use of \gc \textbackslash emph\normalfont , meaning `emphasis'. This is a descriptive form of markup, because it says `this word is emphasised' — the decision about \emph{how} it is emphasised can be another thing. Contrast this approach of describing the features of the text to a more procedural markup, where one might say `italicise the text' with the command \gc \textbackslash textit.\normalfont LaTeX can feel a bit procedural, because it is for typesetting, but often you get on better, and write more elegant code, taking a descriptive approach to markup.
+Note the use of \gc \textbackslash emph\nf , meaning `emphasis'. This is a descriptive form of markup, because it says `this word is emphasised' — the decision about \emph{how} it is emphasised can be another thing. Contrast this approach of describing the features of the text to a more procedural markup, where one might say `italicise the text' with the command \gc \textbackslash textit.\nf LaTeX can feel a bit procedural, because it is for typesetting, but often you get on better, and write more elegant code, taking a descriptive approach to markup.
 
 Outside typographic professionals and programming professionals, most people use \LaTeX{}, not \TeX{}. Up until this point, I have only mentioned TeX, but the workflow that I have described is drawn more from my experience with LaTeX.
 
@@ -128,7 +132,7 @@ Now, the document class is the \emph{very first thing} you tell LaTeX. It corres
 
 The memoir documentation is in the repository, in the  ``Documentations'' folder. 
 
-I like it because it is comprehensive, well-explained, sensitive to broader concepts and theories while still being detailed, does not make too many assumptions about your circumstances, and has excellent cross-referencing to other resources. It is quite long, because of how deep thorough some of the explanations are.
+I like it because it is comprehensive, well-explained, sensitive to broader concepts and theories while still being detailed, does not make too many assumptions about your circumstances, and has excellent cross-referencing to other resources. It is quite long, because of how thorough some of the explanations are.
 
 I advise you to look at the memoir documentation, but not necessarily to use it as your first starting point. I know that you are a wonderful, intelligent, trailblazing scientist, but one of the below recommendations will still serve you well as the first step; memoir is something to come back to later, especially if you ever work in a book format.
 
@@ -136,13 +140,13 @@ I advise you to look at the memoir documentation, but not necessarily to use it 
 
 ``The Not So Short Introduction to LaTeX'' is a well-established reference guide and introduction to LaTeX. I like it because it acts as a reference book, but then does not skim over things too fast. It genuinely introduces you to LaTeX by carefully thinking about the sorts of things that new LaTeX users would find useful. Consequently, it is indeed not very short — but that is why such things have chapters and a table of contents.
 
-I recommend this guide as one of your possible starting points. It will provide you with a good introduction, good reference material, and it will help you to write concise code from the outset.
+I recommend this guide as one of your possible starting points. It will provide you with a good introduction, good reference material, and it will help you to write concise code from the outset \footnote{I was starting to learn how to write good LaTeX code from the weight of experience. It was both encouraging and agonising to find one of the \emph{exact} same habits I had articulated prominently stated in the \emph{Not So Short Introduction}}.
 
 The bibliography for the \emph{Note So Short Introduction} is an excellent list of publications and documentations.
 
 \subsection{Overleaf}
 
-Continuing our journey to a good beginning-point: Overleaf. Now, Overleaf is not really a documentation source. It is a website that offers a free, online LaTeX editor, and has some pretty good tutorial/reference-guides available as well. I think that you will get on quite well starting with the overleaf editor if you do not have something like VS Code set up; without such a set-up, LaTeX can get a bit overwhelming\footnote{See chapter three for installing LaTeX}.
+Continuing our journey to a good beginning-point: Overleaf. Now, Overleaf is not really a documentation source. It is a website that offers a free, online LaTeX editor, and has some pretty good tutorial/reference-guides available as well. I think that you will get on quite well starting with the overleaf editor if you do not have something like VS Code set up; without such a set-up, LaTeX can get a bit overwhelming\footnote{See section 4.2 for the topic of installing LaTeX}.
 
 But my purpose here is to examine the documentation side of things. Overleaf has a `documentation' of sorts, the first part of which is a tutorial ambitiously named ``learn LaTeX in 30 minutes''. This may be a good place to start if you want to get going. However, as you move forwards, you should transition to also using things like the `Not So Short Introduction', and the memoir class documentation. These documentations are essentially whole books at your disposal. They are more comprehensive than overleaf, and allow you to get around LaTeX in a structured way.
 
