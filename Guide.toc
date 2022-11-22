@@ -12,14 +12,14 @@
 \contentsline {subsection}{The Not So Short Introduction}{13}{section*.6}%
 \contentsline {subsection}{Overleaf}{13}{section*.7}%
 \contentsline {section}{\numberline {3.3}Summary So Far}{14}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Other Documentations}{14}{section.3.4}%
-\contentsline {subsection}{XeTeX}{14}{section*.8}%
+\contentsline {section}{\numberline {3.4}Other Documentations}{15}{section.3.4}%
+\contentsline {subsection}{XeTeX}{15}{section*.8}%
 \contentsline {subsection}{BiBTeX}{15}{section*.9}%
 \contentsline {subsection}{And Many More}{16}{section*.10}%
-\contentsline {chapter}{\chapternumberline {4}Official Sites and Resources}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}The Three Main Sites}{17}{section.4.1}%
-\contentsline {subsection}{The LaTeX Project}{17}{section*.11}%
-\contentsline {subsection}{Tex User Group}{17}{section*.12}%
-\contentsline {subsection}{The Comprehensive Tex Archive Network}{17}{section*.13}%
-\contentsline {section}{\numberline {4.2}Bringing It Together}{18}{section.4.2}%
-\contentsline {chapter}{\chapternumberline {5}Online Help}{19}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {4}Official Sites and Resources}{18}{chapter.4}%
+\contentsline {section}{\numberline {4.1}The Three Main Sites}{18}{section.4.1}%
+\contentsline {subsection}{The LaTeX Project}{18}{section*.11}%
+\contentsline {subsection}{Tex User Group}{18}{section*.12}%
+\contentsline {subsection}{The Comprehensive Tex Archive Network}{18}{section*.13}%
+\contentsline {section}{\numberline {4.2}Bringing It Together}{19}{section.4.2}%
+\contentsline {chapter}{\chapternumberline {5}Online Help}{20}{chapter.5}%
