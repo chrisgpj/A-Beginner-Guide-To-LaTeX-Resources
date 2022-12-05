@@ -1,25 +1,25 @@
 \contentsline {chapter}{Contents}{3}{section*.1}%
 \contentsline {chapter}{\chapternumberline {1}Introduction}{4}{chapter.1}%
-\contentsline {subsection}{A note on the text}{4}{section*.2}%
-\contentsline {chapter}{\chapternumberline {2}Some Ideas Surrounding \LaTeX {}}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}The Structure of \LaTeX {}}{6}{section.2.1}%
-\contentsline {subsection}{An Addendum}{9}{section*.3}%
-\contentsline {subsection}{Why Not To Use LaTeX}{10}{section*.4}%
-\contentsline {chapter}{\chapternumberline {3}Documentation}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Official Documentation, or Just Offal?}{11}{section.3.1}%
-\contentsline {section}{\numberline {3.2}A couple of Favourite Documentations}{12}{section.3.2}%
-\contentsline {subsection}{Memoir}{12}{section*.5}%
-\contentsline {subsection}{The Not So Short Introduction}{13}{section*.6}%
-\contentsline {subsection}{Overleaf}{13}{section*.7}%
-\contentsline {section}{\numberline {3.3}Summary So Far}{14}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Other Documentations}{15}{section.3.4}%
-\contentsline {subsection}{XeTeX}{15}{section*.8}%
-\contentsline {subsection}{BiBTeX}{15}{section*.9}%
-\contentsline {subsection}{And Many More}{16}{section*.10}%
-\contentsline {chapter}{\chapternumberline {4}Official Sites and Resources}{18}{chapter.4}%
-\contentsline {section}{\numberline {4.1}The Three Main Sites}{18}{section.4.1}%
-\contentsline {subsection}{The LaTeX Project}{18}{section*.11}%
-\contentsline {subsection}{Tex User Group}{18}{section*.12}%
-\contentsline {subsection}{The Comprehensive Tex Archive Network}{18}{section*.13}%
-\contentsline {section}{\numberline {4.2}Bringing It Together}{19}{section.4.2}%
-\contentsline {chapter}{\chapternumberline {5}Online Help}{20}{chapter.5}%
+\contentsline {subsection}{A note on the text}{5}{section*.2}%
+\contentsline {chapter}{\chapternumberline {2}Some Ideas Surrounding \LaTeX {}}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The Structure of \LaTeX {}}{7}{section.2.1}%
+\contentsline {subsection}{An Addendum}{10}{section*.3}%
+\contentsline {subsection}{Why Not To Use LaTeX}{11}{section*.4}%
+\contentsline {chapter}{\chapternumberline {3}Documentation}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Official Documentation, or Just Offal?}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}A couple of Favourite Documentations}{13}{section.3.2}%
+\contentsline {subsection}{Memoir}{13}{section*.5}%
+\contentsline {subsection}{The Not So Short Introduction}{14}{section*.6}%
+\contentsline {subsection}{Overleaf}{14}{section*.7}%
+\contentsline {section}{\numberline {3.3}Summary So Far}{15}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Other Documentations}{16}{section.3.4}%
+\contentsline {subsection}{XeTeX}{16}{section*.8}%
+\contentsline {subsection}{BiBTeX}{16}{section*.9}%
+\contentsline {subsection}{And Many More}{17}{section*.10}%
+\contentsline {chapter}{\chapternumberline {4}Official Sites and Resources}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}The Three Main Sites}{19}{section.4.1}%
+\contentsline {subsection}{The LaTeX Project}{19}{section*.11}%
+\contentsline {subsection}{Tex User Group}{19}{section*.12}%
+\contentsline {subsection}{The Comprehensive Tex Archive Network}{19}{section*.13}%
+\contentsline {section}{\numberline {4.2}Bringing It Together}{20}{section.4.2}%
+\contentsline {chapter}{\chapternumberline {5}Online Help}{21}{chapter.5}%
