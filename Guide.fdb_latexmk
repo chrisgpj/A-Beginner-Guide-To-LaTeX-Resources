@@ -1,10 +1,10 @@
 # Fdb version 3
-["xdvipdfmx"] 1671024819 "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv" "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.pdf" "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide" 1671024820
-  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv" 1671024819 285176 8b5e039529dc3c6269467292ba506a82 "xelatex"
+["xdvipdfmx"] 1671024940 "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv" "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.pdf" "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide" 1671024941
+  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv" 1671024940 285176 14aec5f244e34405777e4520ad9d0403 "xelatex"
   (generated)
   "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.pdf"
-["xelatex"] 1671024818 "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.tex" "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv" "Guide" 1671024820
-  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.aux" 1671024819 3915 68969ea83a5cadf7cd46d1183c96a639 ""
+["xelatex"] 1671024939 "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.tex" "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv" "Guide" 1671024941
+  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.aux" 1671024940 3915 68969ea83a5cadf7cd46d1183c96a639 ""
   "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.tex" 1670217599 27538 a7ac5c8c6635d46ec8fd6fa1f2a57b4e ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -75,15 +75,15 @@
   "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
   "/usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt" 1586288269 4769632 cea4f80911e5df070b1f6d7834d4faf8 ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "Guide.aux" 1671024819 3915 68969ea83a5cadf7cd46d1183c96a639 "xelatex"
-  "Guide.out" 1671024819 885 5547fbf4fe61f8a8f9e37cd3555f28b2 "xelatex"
+  "Guide.aux" 1671024940 3915 68969ea83a5cadf7cd46d1183c96a639 "xelatex"
+  "Guide.out" 1671024940 885 5547fbf4fe61f8a8f9e37cd3555f28b2 "xelatex"
   "Guide.tex" 1670217599 27538 a7ac5c8c6635d46ec8fd6fa1f2a57b4e ""
-  "Guide.toc" 1671024819 1803 f56fb507b3d191543e01a5a5b2db8689 "xelatex"
+  "Guide.toc" 1671024940 1803 f56fb507b3d191543e01a5a5b2db8689 "xelatex"
   (generated)
-  "Guide.out"
+  "Guide.xdv"
   "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.log"
   "Guide.log"
-  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv"
-  "Guide.xdv"
-  "Guide.toc"
+  "Guide.out"
   "Guide.aux"
+  "Guide.toc"
+  "/Users/christophergeorge/Desktop/Repositories/A-Beginner-Guide-To-LaTeX-Resources/Guide.xdv"

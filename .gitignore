@@ -1,2 +1,9 @@
 .DS_Store
 *.aux
+*.log
+*.out
+*.toc
+*.xdv
+*.syntec.gz
+*.fls
+*.fbd_latexmk
