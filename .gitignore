@@ -4,6 +4,6 @@
 *.out
 *.toc
 *.xdv
-*.syntec.gz
+*.synctex.gz
 *.fls
 *.fbd_latexmk
