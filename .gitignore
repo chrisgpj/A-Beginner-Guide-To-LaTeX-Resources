@@ -6,4 +6,4 @@
 *.xdv
 *.synctex.gz
 *.fls
-*.fbd_latexmk
+*.fdb_latexmk
